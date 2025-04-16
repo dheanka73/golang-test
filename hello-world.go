@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("hi everyone")
+
+	var name string
+
+	fmt.Print("What is your name ? : ")
+	fmt.Scan(&name)
+	fmt.Println("Hi, ", name)
 }
