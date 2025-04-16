@@ -8,5 +8,11 @@ func main() {
 
 	fmt.Print("What is your name ? : ")
 	fmt.Scan(&name)
-	fmt.Println("Hi, ", name)
+
+	if name == "batman" {
+		fmt.Println("Your lying !")
+	} else {
+		fmt.Println("Oh, Hi ", name, " !")
+	}
+
 }
